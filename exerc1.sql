@@ -28,5 +28,9 @@ select * from tb_cola;
 update tb_cola set ativo = 1 where id = 1;
 update tb_cola set ativo = 0 where id = 2;
 update tb_cola set ativo = 1 where id = 3;
-update tb_cola set ativo = 0 where id = 4;
+UPDATE tb_cola
+SET 
+    ativo = 0
+WHERE
+    id = 4;
 
